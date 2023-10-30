@@ -1,0 +1,526 @@
+﻿
+namespace PetShopManagement_ICTProject_
+{
+    partial class Dog
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dog));
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_new = new System.Windows.Forms.Button();
+            this.btn_Delete = new System.Windows.Forms.Button();
+            this.btn_Edit = new System.Windows.Forms.Button();
+            this.btn_Add = new System.Windows.Forms.Button();
+            this.txt_Country = new System.Windows.Forms.TextBox();
+            this.tblDogsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.addDogs = new PetShopManagement_ICTProject_.AddDogs();
+            this.label5 = new System.Windows.Forms.Label();
+            this.dgv_Dog = new System.Windows.Forms.DataGridView();
+            this.dogIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dogsBreedDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ageDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.countryDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.priceDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txt_Price = new System.Windows.Forms.TextBox();
+            this.txt_Age = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.cmb_DogsBreed = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lbl_Log = new System.Windows.Forms.Label();
+            this.btn_Logout = new System.Windows.Forms.Button();
+            this.btn_Billing = new System.Windows.Forms.Button();
+            this.btn_DogsCat = new System.Windows.Forms.Button();
+            this.btn_StaffReg = new System.Windows.Forms.Button();
+            this.btn_Dashboard = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.tbl_DogsTableAdapter = new PetShopManagement_ICTProject_.AddDogsTableAdapters.Tbl_DogsTableAdapter();
+            this.btn_Product = new System.Windows.Forms.Button();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tblDogsBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.addDogs)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Dog)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.panel1.Controls.Add(this.btn_new);
+            this.panel1.Controls.Add(this.btn_Delete);
+            this.panel1.Controls.Add(this.btn_Edit);
+            this.panel1.Controls.Add(this.btn_Add);
+            this.panel1.Controls.Add(this.txt_Country);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.dgv_Dog);
+            this.panel1.Controls.Add(this.txt_Price);
+            this.panel1.Controls.Add(this.txt_Age);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.cmb_DogsBreed);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.lbl_Log);
+            this.panel1.ForeColor = System.Drawing.Color.Navy;
+            this.panel1.Location = new System.Drawing.Point(294, 12);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(716, 602);
+            this.panel1.TabIndex = 27;
+            // 
+            // btn_new
+            // 
+            this.btn_new.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(56)))), ((int)(((byte)(79)))));
+            this.btn_new.FlatAppearance.BorderSize = 0;
+            this.btn_new.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_new.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_new.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.btn_new.Location = new System.Drawing.Point(20, 259);
+            this.btn_new.Name = "btn_new";
+            this.btn_new.Size = new System.Drawing.Size(130, 41);
+            this.btn_new.TabIndex = 42;
+            this.btn_new.Text = "New";
+            this.btn_new.UseVisualStyleBackColor = false;
+            this.btn_new.Click += new System.EventHandler(this.btn_new_Click);
+            // 
+            // btn_Delete
+            // 
+            this.btn_Delete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(56)))), ((int)(((byte)(79)))));
+            this.btn_Delete.FlatAppearance.BorderSize = 0;
+            this.btn_Delete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Delete.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Delete.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.btn_Delete.Location = new System.Drawing.Point(428, 259);
+            this.btn_Delete.Name = "btn_Delete";
+            this.btn_Delete.Size = new System.Drawing.Size(130, 41);
+            this.btn_Delete.TabIndex = 41;
+            this.btn_Delete.Text = "Delete";
+            this.btn_Delete.UseVisualStyleBackColor = false;
+            this.btn_Delete.Click += new System.EventHandler(this.btn_Delete_Click);
+            // 
+            // btn_Edit
+            // 
+            this.btn_Edit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(56)))), ((int)(((byte)(79)))));
+            this.btn_Edit.FlatAppearance.BorderSize = 0;
+            this.btn_Edit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Edit.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Edit.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.btn_Edit.Location = new System.Drawing.Point(292, 259);
+            this.btn_Edit.Name = "btn_Edit";
+            this.btn_Edit.Size = new System.Drawing.Size(130, 41);
+            this.btn_Edit.TabIndex = 40;
+            this.btn_Edit.Text = "Edit";
+            this.btn_Edit.UseVisualStyleBackColor = false;
+            this.btn_Edit.Click += new System.EventHandler(this.btn_Edit_Click);
+            // 
+            // btn_Add
+            // 
+            this.btn_Add.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(56)))), ((int)(((byte)(79)))));
+            this.btn_Add.FlatAppearance.BorderSize = 0;
+            this.btn_Add.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Add.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Add.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.btn_Add.Location = new System.Drawing.Point(156, 259);
+            this.btn_Add.Name = "btn_Add";
+            this.btn_Add.Size = new System.Drawing.Size(130, 41);
+            this.btn_Add.TabIndex = 39;
+            this.btn_Add.Text = "Add";
+            this.btn_Add.UseVisualStyleBackColor = false;
+            this.btn_Add.Click += new System.EventHandler(this.btn_Add_Click);
+            // 
+            // txt_Country
+            // 
+            this.txt_Country.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tblDogsBindingSource, "Country", true));
+            this.txt_Country.Location = new System.Drawing.Point(148, 155);
+            this.txt_Country.Name = "txt_Country";
+            this.txt_Country.Size = new System.Drawing.Size(201, 22);
+            this.txt_Country.TabIndex = 10;
+            // 
+            // tblDogsBindingSource
+            // 
+            this.tblDogsBindingSource.DataMember = "Tbl_Dogs";
+            this.tblDogsBindingSource.DataSource = this.addDogs;
+            // 
+            // addDogs
+            // 
+            this.addDogs.DataSetName = "AddDogs";
+            this.addDogs.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.Location = new System.Drawing.Point(42, 152);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(87, 23);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Country";
+            // 
+            // dgv_Dog
+            // 
+            this.dgv_Dog.AutoGenerateColumns = false;
+            this.dgv_Dog.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_Dog.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dogIDDataGridViewTextBoxColumn,
+            this.dogsBreedDataGridViewTextBoxColumn,
+            this.ageDataGridViewTextBoxColumn,
+            this.countryDataGridViewTextBoxColumn,
+            this.priceDataGridViewTextBoxColumn});
+            this.dgv_Dog.DataSource = this.tblDogsBindingSource;
+            this.dgv_Dog.Location = new System.Drawing.Point(20, 306);
+            this.dgv_Dog.Name = "dgv_Dog";
+            this.dgv_Dog.RowHeadersWidth = 51;
+            this.dgv_Dog.RowTemplate.Height = 24;
+            this.dgv_Dog.Size = new System.Drawing.Size(680, 283);
+            this.dgv_Dog.TabIndex = 8;
+            // 
+            // dogIDDataGridViewTextBoxColumn
+            // 
+            this.dogIDDataGridViewTextBoxColumn.DataPropertyName = "DogID";
+            this.dogIDDataGridViewTextBoxColumn.HeaderText = "DogID";
+            this.dogIDDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.dogIDDataGridViewTextBoxColumn.Name = "dogIDDataGridViewTextBoxColumn";
+            this.dogIDDataGridViewTextBoxColumn.ReadOnly = true;
+            this.dogIDDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // dogsBreedDataGridViewTextBoxColumn
+            // 
+            this.dogsBreedDataGridViewTextBoxColumn.DataPropertyName = "DogsBreed";
+            this.dogsBreedDataGridViewTextBoxColumn.HeaderText = "DogsBreed";
+            this.dogsBreedDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.dogsBreedDataGridViewTextBoxColumn.Name = "dogsBreedDataGridViewTextBoxColumn";
+            this.dogsBreedDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // ageDataGridViewTextBoxColumn
+            // 
+            this.ageDataGridViewTextBoxColumn.DataPropertyName = "Age";
+            this.ageDataGridViewTextBoxColumn.HeaderText = "Age";
+            this.ageDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.ageDataGridViewTextBoxColumn.Name = "ageDataGridViewTextBoxColumn";
+            this.ageDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // countryDataGridViewTextBoxColumn
+            // 
+            this.countryDataGridViewTextBoxColumn.DataPropertyName = "Country";
+            this.countryDataGridViewTextBoxColumn.HeaderText = "Country";
+            this.countryDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.countryDataGridViewTextBoxColumn.Name = "countryDataGridViewTextBoxColumn";
+            this.countryDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // priceDataGridViewTextBoxColumn
+            // 
+            this.priceDataGridViewTextBoxColumn.DataPropertyName = "Price";
+            this.priceDataGridViewTextBoxColumn.HeaderText = "Price";
+            this.priceDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.priceDataGridViewTextBoxColumn.Name = "priceDataGridViewTextBoxColumn";
+            this.priceDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // txt_Price
+            // 
+            this.txt_Price.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tblDogsBindingSource, "Price", true));
+            this.txt_Price.Location = new System.Drawing.Point(148, 203);
+            this.txt_Price.Name = "txt_Price";
+            this.txt_Price.Size = new System.Drawing.Size(201, 22);
+            this.txt_Price.TabIndex = 7;
+            // 
+            // txt_Age
+            // 
+            this.txt_Age.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tblDogsBindingSource, "Age", true));
+            this.txt_Age.Location = new System.Drawing.Point(148, 97);
+            this.txt_Age.Name = "txt_Age";
+            this.txt_Age.Size = new System.Drawing.Size(201, 22);
+            this.txt_Age.TabIndex = 6;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.label4.ForeColor = System.Drawing.Color.Black;
+            this.label4.Location = new System.Drawing.Point(71, 203);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(58, 23);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Price";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(78, 97);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(51, 23);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Age";
+            // 
+            // cmb_DogsBreed
+            // 
+            this.cmb_DogsBreed.DataBindings.Add(new System.Windows.Forms.Binding("SelectedItem", this.tblDogsBindingSource, "DogsBreed", true));
+            this.cmb_DogsBreed.FormattingEnabled = true;
+            this.cmb_DogsBreed.Items.AddRange(new object[] {
+            "German Shephard",
+            "Rottweiler",
+            "Doberman Pinscher",
+            "Golden Retriever",
+            "Cane Corso"});
+            this.cmb_DogsBreed.Location = new System.Drawing.Point(148, 45);
+            this.cmb_DogsBreed.Name = "cmb_DogsBreed";
+            this.cmb_DogsBreed.Size = new System.Drawing.Size(324, 24);
+            this.cmb_DogsBreed.TabIndex = 2;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(16, 46);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(126, 23);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Dogs\' Breed";
+            // 
+            // lbl_Log
+            // 
+            this.lbl_Log.AutoSize = true;
+            this.lbl_Log.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Log.Location = new System.Drawing.Point(421, 36);
+            this.lbl_Log.Name = "lbl_Log";
+            this.lbl_Log.Size = new System.Drawing.Size(0, 35);
+            this.lbl_Log.TabIndex = 0;
+            this.lbl_Log.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // btn_Logout
+            // 
+            this.btn_Logout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(56)))), ((int)(((byte)(79)))));
+            this.btn_Logout.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btn_Logout.FlatAppearance.BorderSize = 0;
+            this.btn_Logout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Logout.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Logout.ForeColor = System.Drawing.Color.LightSteelBlue;
+            this.btn_Logout.Image = ((System.Drawing.Image)(resources.GetObject("btn_Logout.Image")));
+            this.btn_Logout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Logout.Location = new System.Drawing.Point(3, 546);
+            this.btn_Logout.Margin = new System.Windows.Forms.Padding(3, 3, 1, 3);
+            this.btn_Logout.Name = "btn_Logout";
+            this.btn_Logout.Size = new System.Drawing.Size(287, 55);
+            this.btn_Logout.TabIndex = 26;
+            this.btn_Logout.Text = "Logout";
+            this.btn_Logout.UseVisualStyleBackColor = false;
+            this.btn_Logout.Click += new System.EventHandler(this.btn_Logout_Click);
+            // 
+            // btn_Billing
+            // 
+            this.btn_Billing.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(56)))), ((int)(((byte)(79)))));
+            this.btn_Billing.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btn_Billing.FlatAppearance.BorderSize = 0;
+            this.btn_Billing.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Billing.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Billing.ForeColor = System.Drawing.Color.LightSteelBlue;
+            this.btn_Billing.Image = ((System.Drawing.Image)(resources.GetObject("btn_Billing.Image")));
+            this.btn_Billing.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Billing.Location = new System.Drawing.Point(3, 450);
+            this.btn_Billing.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_Billing.Name = "btn_Billing";
+            this.btn_Billing.Size = new System.Drawing.Size(287, 55);
+            this.btn_Billing.TabIndex = 25;
+            this.btn_Billing.Text = "Billing";
+            this.btn_Billing.UseVisualStyleBackColor = false;
+            this.btn_Billing.Click += new System.EventHandler(this.btn_Billing_Click);
+            // 
+            // btn_DogsCat
+            // 
+            this.btn_DogsCat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(56)))), ((int)(((byte)(79)))));
+            this.btn_DogsCat.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btn_DogsCat.FlatAppearance.BorderSize = 0;
+            this.btn_DogsCat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_DogsCat.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_DogsCat.ForeColor = System.Drawing.Color.LightSteelBlue;
+            this.btn_DogsCat.Image = ((System.Drawing.Image)(resources.GetObject("btn_DogsCat.Image")));
+            this.btn_DogsCat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_DogsCat.Location = new System.Drawing.Point(3, 331);
+            this.btn_DogsCat.Margin = new System.Windows.Forms.Padding(3, 3, 1, 3);
+            this.btn_DogsCat.Name = "btn_DogsCat";
+            this.btn_DogsCat.Size = new System.Drawing.Size(287, 55);
+            this.btn_DogsCat.TabIndex = 24;
+            this.btn_DogsCat.Text = "Dogs catergories";
+            this.btn_DogsCat.UseVisualStyleBackColor = false;
+            this.btn_DogsCat.Click += new System.EventHandler(this.btn_DogsCat_Click);
+            // 
+            // btn_StaffReg
+            // 
+            this.btn_StaffReg.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(56)))), ((int)(((byte)(79)))));
+            this.btn_StaffReg.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btn_StaffReg.FlatAppearance.BorderSize = 0;
+            this.btn_StaffReg.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_StaffReg.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_StaffReg.ForeColor = System.Drawing.Color.LightSteelBlue;
+            this.btn_StaffReg.Image = ((System.Drawing.Image)(resources.GetObject("btn_StaffReg.Image")));
+            this.btn_StaffReg.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_StaffReg.Location = new System.Drawing.Point(3, 273);
+            this.btn_StaffReg.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_StaffReg.Name = "btn_StaffReg";
+            this.btn_StaffReg.Size = new System.Drawing.Size(287, 55);
+            this.btn_StaffReg.TabIndex = 23;
+            this.btn_StaffReg.Text = "Staff registration";
+            this.btn_StaffReg.UseVisualStyleBackColor = false;
+            this.btn_StaffReg.Click += new System.EventHandler(this.btn_StaffReg_Click);
+            // 
+            // btn_Dashboard
+            // 
+            this.btn_Dashboard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(56)))), ((int)(((byte)(79)))));
+            this.btn_Dashboard.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btn_Dashboard.FlatAppearance.BorderSize = 0;
+            this.btn_Dashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Dashboard.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Dashboard.ForeColor = System.Drawing.Color.LightSteelBlue;
+            this.btn_Dashboard.Image = ((System.Drawing.Image)(resources.GetObject("btn_Dashboard.Image")));
+            this.btn_Dashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Dashboard.Location = new System.Drawing.Point(3, 215);
+            this.btn_Dashboard.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_Dashboard.Name = "btn_Dashboard";
+            this.btn_Dashboard.Size = new System.Drawing.Size(287, 55);
+            this.btn_Dashboard.TabIndex = 22;
+            this.btn_Dashboard.Text = "Dashboard";
+            this.btn_Dashboard.UseVisualStyleBackColor = false;
+            this.btn_Dashboard.Click += new System.EventHandler(this.btn_Dashboard_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label2.Location = new System.Drawing.Point(41, 31);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(231, 34);
+            this.label2.TabIndex = 20;
+            this.label2.Text = "PUPPY PET SHOP";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(91, 79);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(98, 93);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 21;
+            this.pictureBox2.TabStop = false;
+            // 
+            // tbl_DogsTableAdapter
+            // 
+            this.tbl_DogsTableAdapter.ClearBeforeFill = true;
+            // 
+            // btn_Product
+            // 
+            this.btn_Product.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(56)))), ((int)(((byte)(79)))));
+            this.btn_Product.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btn_Product.FlatAppearance.BorderSize = 0;
+            this.btn_Product.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Product.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Product.ForeColor = System.Drawing.Color.LightSteelBlue;
+            this.btn_Product.Image = ((System.Drawing.Image)(resources.GetObject("btn_Product.Image")));
+            this.btn_Product.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Product.Location = new System.Drawing.Point(3, 392);
+            this.btn_Product.Margin = new System.Windows.Forms.Padding(3, 3, 1, 3);
+            this.btn_Product.Name = "btn_Product";
+            this.btn_Product.Size = new System.Drawing.Size(287, 55);
+            this.btn_Product.TabIndex = 28;
+            this.btn_Product.Text = "Products";
+            this.btn_Product.UseVisualStyleBackColor = false;
+            this.btn_Product.Click += new System.EventHandler(this.btn_Product_Click);
+            // 
+            // Dog
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(56)))), ((int)(((byte)(79)))));
+            this.ClientSize = new System.Drawing.Size(1022, 626);
+            this.Controls.Add(this.btn_Product);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.btn_Logout);
+            this.Controls.Add(this.btn_Billing);
+            this.Controls.Add(this.btn_DogsCat);
+            this.Controls.Add(this.btn_StaffReg);
+            this.Controls.Add(this.btn_Dashboard);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.pictureBox2);
+            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(56)))), ((int)(((byte)(79)))));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "Dog";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Dog";
+            this.Load += new System.EventHandler(this.Dog_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tblDogsBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.addDogs)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Dog)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label lbl_Log;
+        private System.Windows.Forms.Button btn_Logout;
+        private System.Windows.Forms.Button btn_Billing;
+        private System.Windows.Forms.Button btn_DogsCat;
+        private System.Windows.Forms.Button btn_StaffReg;
+        private System.Windows.Forms.Button btn_Dashboard;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.TextBox txt_Price;
+        private System.Windows.Forms.TextBox txt_Age;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ComboBox cmb_DogsBreed;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DataGridView dgv_Dog;
+        private System.Windows.Forms.Button btn_new;
+        private System.Windows.Forms.Button btn_Delete;
+        private System.Windows.Forms.Button btn_Edit;
+        private System.Windows.Forms.Button btn_Add;
+        private System.Windows.Forms.TextBox txt_Country;
+        private System.Windows.Forms.Label label5;
+        private AddDogs addDogs;
+        private System.Windows.Forms.BindingSource tblDogsBindingSource;
+        private AddDogsTableAdapters.Tbl_DogsTableAdapter tbl_DogsTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dogIDDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dogsBreedDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ageDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn countryDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn priceDataGridViewTextBoxColumn;
+        private System.Windows.Forms.Button btn_Product;
+    }
+}

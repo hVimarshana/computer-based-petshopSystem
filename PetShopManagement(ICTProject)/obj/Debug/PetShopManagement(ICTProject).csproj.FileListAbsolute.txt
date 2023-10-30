@@ -1,0 +1,32 @@
+C:\Users\Hirusha\source\repos\PetShopManagement(ICTProject)\PetShopManagement(ICTProject)\bin\Debug\PetShopManagement(ICTProject).exe.config
+C:\Users\Hirusha\source\repos\PetShopManagement(ICTProject)\PetShopManagement(ICTProject)\bin\Debug\PetShopManagement(ICTProject).exe
+C:\Users\Hirusha\source\repos\PetShopManagement(ICTProject)\PetShopManagement(ICTProject)\bin\Debug\PetShopManagement(ICTProject).pdb
+C:\Users\Hirusha\source\repos\PetShopManagement(ICTProject)\PetShopManagement(ICTProject)\obj\Debug\PetShopManagement(ICTProject).csproj.AssemblyReference.cache
+C:\Users\Hirusha\source\repos\PetShopManagement(ICTProject)\PetShopManagement(ICTProject)\obj\Debug\PetShopManagement_ICTProject_.Properties.Resources.resources
+C:\Users\Hirusha\source\repos\PetShopManagement(ICTProject)\PetShopManagement(ICTProject)\obj\Debug\PetShopManagement_ICTProject_.StaffRegistration.resources
+C:\Users\Hirusha\source\repos\PetShopManagement(ICTProject)\PetShopManagement(ICTProject)\obj\Debug\PetShopManagement(ICTProject).csproj.GenerateResource.cache
+C:\Users\Hirusha\source\repos\PetShopManagement(ICTProject)\PetShopManagement(ICTProject)\obj\Debug\PetShopManagement(ICTProject).csproj.CoreCompileInputs.cache
+C:\Users\Hirusha\source\repos\PetShopManagement(ICTProject)\PetShopManagement(ICTProject)\obj\Debug\PetShopManagement(ICTProject).exe
+C:\Users\Hirusha\source\repos\PetShopManagement(ICTProject)\PetShopManagement(ICTProject)\obj\Debug\PetShopManagement(ICTProject).pdb
+C:\Users\Hirusha\source\repos\PetShopManagement(ICTProject)\PetShopManagement(ICTProject)\obj\Debug\PetShopManagement_ICTProject_.CashierDashboard.resources
+C:\Users\Hirusha\source\repos\PetShopManagement(ICTProject)\PetShopManagement(ICTProject)\obj\Debug\PetShopManagement_ICTProject_.Login.resources
+C:\Users\Hirusha\source\repos\PetShopManagement(ICTProject)\PetShopManagement(ICTProject)\obj\Debug\PetShopManagement_ICTProject_.Dashboard.resources
+C:\Users\Hirusha\source\repos\PetShopManagement(ICTProject)\PetShopManagement(ICTProject)\obj\Debug\PetShopManagement_ICTProject_.Load.resources
+C:\Users\Hirusha\source\repos\PetShopManagement(ICTProject)\PetShopManagement(ICTProject)\obj\Debug\PetShopManagement_ICTProject_.Dog.resources
+E:\VS projects\PetShopManagement(ICTProject)\PetShopManagement(ICTProject)\bin\Debug\PetShopManagement(ICTProject).exe.config
+E:\VS projects\PetShopManagement(ICTProject)\PetShopManagement(ICTProject)\bin\Debug\PetShopManagement(ICTProject).exe
+E:\VS projects\PetShopManagement(ICTProject)\PetShopManagement(ICTProject)\bin\Debug\PetShopManagement(ICTProject).pdb
+E:\VS projects\PetShopManagement(ICTProject)\PetShopManagement(ICTProject)\obj\Debug\PetShopManagement(ICTProject).csproj.AssemblyReference.cache
+E:\VS projects\PetShopManagement(ICTProject)\PetShopManagement(ICTProject)\obj\Debug\PetShopManagement_ICTProject_.Dashboard.resources
+E:\VS projects\PetShopManagement(ICTProject)\PetShopManagement(ICTProject)\obj\Debug\PetShopManagement_ICTProject_.CashierDashboard.resources
+E:\VS projects\PetShopManagement(ICTProject)\PetShopManagement(ICTProject)\obj\Debug\PetShopManagement_ICTProject_.Dog.resources
+E:\VS projects\PetShopManagement(ICTProject)\PetShopManagement(ICTProject)\obj\Debug\PetShopManagement_ICTProject_.Load.resources
+E:\VS projects\PetShopManagement(ICTProject)\PetShopManagement(ICTProject)\obj\Debug\PetShopManagement_ICTProject_.Login.resources
+E:\VS projects\PetShopManagement(ICTProject)\PetShopManagement(ICTProject)\obj\Debug\PetShopManagement_ICTProject_.Product.resources
+E:\VS projects\PetShopManagement(ICTProject)\PetShopManagement(ICTProject)\obj\Debug\PetShopManagement_ICTProject_.Properties.Resources.resources
+E:\VS projects\PetShopManagement(ICTProject)\PetShopManagement(ICTProject)\obj\Debug\PetShopManagement_ICTProject_.StaffRegistration.resources
+E:\VS projects\PetShopManagement(ICTProject)\PetShopManagement(ICTProject)\obj\Debug\PetShopManagement(ICTProject).csproj.GenerateResource.cache
+E:\VS projects\PetShopManagement(ICTProject)\PetShopManagement(ICTProject)\obj\Debug\PetShopManagement(ICTProject).csproj.CoreCompileInputs.cache
+E:\VS projects\PetShopManagement(ICTProject)\PetShopManagement(ICTProject)\obj\Debug\PetShopManagement(ICTProject).exe
+E:\VS projects\PetShopManagement(ICTProject)\PetShopManagement(ICTProject)\obj\Debug\PetShopManagement(ICTProject).pdb
+E:\VS projects\PetShopManagement(ICTProject)\PetShopManagement(ICTProject)\obj\Debug\PetShopManagement_ICTProject_.Billing.resources
